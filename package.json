@@ -1,6 +1,6 @@
 {
   "name": "@trans.eu/pubsub",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A topic-based publish/subscribe library.",
   "main": "index.js",
   "scripts": {
@@ -14,11 +14,15 @@
     "name": "Trans.eu",
     "url": "https://github.com/trans-eu"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/trans-eu/pubsub/issues"
   },
   "homepage": "https://github.com/trans-eu/pubsub#readme",
+  "keywords": ["pub/sub", "pubsub", "publish/subscribe", "publish", "subscribe", "publisher", "subscriber"],
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.4",
